@@ -1,0 +1,110 @@
+#logo-container {
+    text-align: center;
+}
+
+#logo {
+    width: 16%;
+}
+
+nav {
+    margin-top: 2.5vh;
+    text-align: center;
+    background-color: rgb(252, 246, 209);
+    height: 8vh;
+    border-top: 2px solid rgb(229, 203, 153);
+    line-height: 1.1;
+    font-size: 1.2em;
+}
+
+#nav-name {
+    color: #107777;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.title {
+    margin: 9vh 24vw 2vh 24vw;  
+    text-align: center;
+    font-size: 1.4em;
+    font-family: lobster, cursive;
+}
+
+figure {
+    margin-left: 26vw;
+    margin-right: 24vw;
+}
+
+h2 {
+    margin: 2.5vh 26vw 0vw 26vw;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+img {
+    width: 96%;
+}
+
+figcaption {
+    margin-top: 3vh;
+    text-align: center;
+    color: rgb(39, 42, 46);
+    font-size: 1.4em;
+}
+
+.articoli-correlati {
+    margin: 3vh 25.9vw 1vh 25.9vw;
+    border-left: 2px solid orange;
+    padding-left: 1vw;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 0.2;
+}
+
+#featured {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(176, 54, 54);
+}
+
+.ingredients {
+    margin: 8vh 26vw 6vh 26vw;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 3vh;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+h4, ul, ol, footer {
+    margin: 2vh 26vw 1vh 26vw;
+    font-size: 1.2em;
+}
+
+ul {
+    line-height: 1.7;
+}
+
+.method {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 3vh;
+    font-size: 1.5em;
+}
+
+ol {
+    font-weight: 600;
+}
+
+.nostyle {
+    margin-top: 2vh;
+    list-style-type: none;
+    font-weight: 400;
+}
+
+a {
+    color: #107777;
+}
+
