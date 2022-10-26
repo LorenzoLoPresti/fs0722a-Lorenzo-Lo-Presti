@@ -1,0 +1,251 @@
+/* IMPOSTAZIONI GENERALI */
+*{ 
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-position: -50px -220px;
+    background-size: 120%;
+    background-image: url(/FE-S1-L4-Esercizio/assets/img/sfondo.png);
+}
+/* HEADER */
+
+#logo-container {
+    height: 50vh;
+    width: 90%;
+    margin: 5% auto;
+    text-align: center;
+    margin-top: 5%;
+    background-image:linear-gradient(60deg, #27737d, #1eaccc);
+    box-shadow: 0 1px 3px 1px;
+}
+
+#logo {
+    max-width: 65%;
+    margin-bottom: 8%;
+    margin-top: 8%;
+}
+
+.claim {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 11%;
+    color: white;
+}
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    font-weight: 600;
+    color: white;
+    margin: 2%;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.last-menu {
+    margin-bottom: 5%;
+    margin-right: ;
+}
+/* MAIN */
+.article-container {
+    width: 90%;
+    margin: auto;
+    height: 408vh;
+    background-color: white;
+    box-shadow: 0 1px 3px 1px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.title-container {
+    margin: 3%;
+    text-align: left;
+}
+
+#title {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 5%;
+    margin-left: 0;
+    padding-top: 6%;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.writer {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    color: grey;
+}
+
+.article, .caption {
+    margin: 3% 3%;
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+.list {
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+}
+
+.quadrato {
+    background-color: rgb(228, 228, 228);
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.subtitle {
+    font-size: 1.6rem;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    font-weight: 600;
+}
+
+strong {
+    color: purple;
+    font-weight: 600;
+}
+
+.caption {
+    font-weight: 600;
+    font-style: italic;
+}
+/* TABELLE */
+
+.table-header {
+    background-color: rgb(27, 104, 205);
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.2rem;
+    border: 1px solid grey;
+}
+
+.table-cells  {
+    width: 30%;
+    height: 10vh;
+    line-height: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+.alt-table-cells {
+    background-color: rgb(228, 228, 228);
+}
+
+.last-table-cells {
+    border-bottom: 2px solid rgb(27, 104, 205);
+}
+
+.video {
+    border-radius: 20px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+/* FORM */
+/* ELEMENTI NELL' ASIDE */
+.novità-container {
+    height: 35vh;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    background-color: rgb(228, 228, 228);
+}
+
+.novità {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 8%;
+    margin-bottom: 5%;
+}
+
+.form-style {
+    width: 60%;
+    height: 5vh;
+    border: 0;
+    border-bottom: dashed;
+}
+
+.button-style {
+    width: 30%;
+    height: 4.5vh;
+    color: white;
+    background-color: rgb(27, 104, 205);
+    font-size: 1.1rem
+}
+
+.articoli-correlati {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.container-correlati  {
+    height: 20vh;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    margin-top: 5%;
+    background-color: rgb(228, 228, 228);
+}
+
+.link-container {
+    padding-top: 10%;
+}
+
+.link-esterni, .categorie {
+    margin-left: 7%;
+}
+
+.link-esterni {
+    color: rgb(27, 104, 205);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.data {
+    line-height: 5;
+    text-align: right;
+    margin-right: 7%;
+}
+/* FOOTER */
+.container-footer {
+    height: 23vh;
+    width: 90%;
+    margin: 5%;
+    text-align: left;
+    background-image:linear-gradient(0deg, #163b42, #1c7285);
+    box-shadow: 0 1px 3px 1px;
+}
+
+.trademark {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.mail {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+    color: white;
+    margin: 5%;
+    line-height: 1.3;
+}
+
+.mail-text {
+    color: fuchsia;
+    font-weight: 600;
+}
+

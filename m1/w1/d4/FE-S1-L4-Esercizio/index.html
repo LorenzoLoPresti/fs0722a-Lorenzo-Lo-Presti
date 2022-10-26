@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BLog epicode">
+    <link rel="stylesheet" href="/FE-S1-L4-Esercizio/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/font-awesome.css">
+    
+    <title>Blog - Epicode</title>
+</head>
+<body>
+    <header>    
+        <!--Logo-->
+        <div id="logo-container">
+        <div >
+            <img id="logo" src="assets/img/logo.svg" alt="">
+            <p class="claim">Epicode il Blog dei developers</p>
+        </div>
+        <nav>
+             <div> 
+                 <ul>
+                    <li class="menu"><i class="fas fa-long-arrow-alt-right"></i> Home <i class="fas fa-long-arrow-alt-left"></i></li>
+                    <li class="menu"><i class="fas fa-long-arrow-alt-right"></i> Articoli <i class="fas fa-long-arrow-alt-left"></i></li>
+                    <li class="menu last-menu"><i class="fas fa-long-arrow-alt-right"></i> Lavora con noi <i class="fas fa-long-arrow-alt-left"></i></li>
+                 </ul>
+             </div>
+        </nav>
+        </div>
+    </header>
+    <main class="article-container"> 
+        <article>
+            <section>
+                <div class="title-container">
+                    <h1 id="title">Come creare un template per i post</h1>
+                    <p class="writer"><i class="fas fa-pen-square"></i> di Mario Rossi - <i class="fas fa-clock"></i> pubblicato il 25-10-2020</p>
+                </div>
+            </section>
+            <section class="article">
+                <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span>parti comuni</span> da applicare a tutte le pagine </p>
+                <p>Le varie aree saranno suddivise in:</p>
+                <ul class="list">
+                    <li>Contenuti di intestazione del tag <span class="quadrato">&#60Cheater&#62</span></li>
+                    <li>Contenuti centrali variabili del tag <span class="quadrato">&#60main&#62</span> (corpo principale)</li>
+                    <li>Contenuti di fine pagina comuni, da inserire nel tag <span class="quadrato">&#60footer&#62</span></li>
+                </ul>
+            </section>
+            <section class="article">
+                <h3 class="subtitle">Formattazione del codice</h3>
+                <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <strong>selezionare con i CSS</strong>. Perciò i passi saranno:</p>
+                <ol class="list">
+                    <li>Progettare su carta il markup finale, assegnando a ogni specifico testo il tag appropriato</li>
+                    <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                    <li>Applicare gli stili CSS</li>
+                </ol>
+                <p >L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
+            </section>   
+            <section>
+                <table>
+                    <thead>
+                        <caption class="caption">Diffusione dei CSS</caption>
+                        <tr>
+                            <th class="table-header little-table-header">Anno</th>
+                            <th class="table-header little-table-header">% di utilizzo</th>
+                            <th class="table-header">Supporto Browser</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-cells">2000</td>
+                            <td class="table-cells">20%</td>
+                            <td class="table-cells">17%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cells alt-table-cells">2002</td>
+                            <td class="table-cells alt-table-cells">35%</td>
+                            <td class="table-cells alt-table-cells">22%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cells">2004</td>
+                            <td class="table-cells">45%</td>
+                            <td class="table-cells">42%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cells alt-table-cells">2008</td>
+                            <td class="table-cells alt-table-cells">80%</td>
+                            <td class="table-cells alt-table-cells">51%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cells last-table-cells">2012</td>
+                            <td class="table-cells last-table-cells">100%</td>
+                            <td class="table-cells last-table-cells">76%</td>
+                        </tr>
+                        
+                    </tbody>
+                  </table>
+            </section>
+            <section class="article">
+                <p>Un test di validazione potrà essere fatto tramite il <a href="#">tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
+                <iframe class="video" width="380" height="220" src="https://www.youtube.com/embed/dvOvHXruEDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section>
+                <div class="novità-container">
+                    <h4 class="novità">Novità</h4>
+                    <p class="article">Vuoi rimanere aggiornato su altre novidà del blog? Iscriviti alla nostra newsletter:</p>
+                    <form action="">
+                        <input class="form-style" type="email" name="" id="">
+                        <button class="button-style" >Iscriviti!</button>
+                    </form>
+                </div>
+            </section>
+        </article>
+        <div>
+            <h3 class="articoli-correlati">Articoli correlati</h3>
+            <div class="container-correlati">
+                <div class="link-container"> 
+                    <p><a class="link-esterni" href="#">Validare il codice HTML</a></p>
+                    <p class="categorie"><i class="fas fa-tag"></i> Categoria: develop</p>
+                    <p class="data"><i class="fas fa-calendar-alt"></i> Data: 18-9-2020</p>
+                </div>
+            </div>
+            <div class="container-correlati">
+                <div class="link-container"></div>
+                    <p><a class="link-esterni" href="#">Correggere la sintassi</a></p>
+                    <p class="categorie"><i class="fas fa-tag"></i> Categoria: develop</p>
+                    <p class="data"><i class="fas fa-calendar-alt"></i> data: 16-9-2020</p>
+                </div>
+            </div>
+            <div class="container-correlati">
+                <div class="link-container">
+                    <p><a class="link-esterni" href="">Meno Kb nella pagina</a></p>
+                    <p class="categorie"><i class="fas fa-tag"></i> Categoria: ottimizzazione</p>
+                    <p class="data"><i class="fas fa-calendar-alt"></i> Data: 30-9-2020</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <p class="trademark">Blog Epicode ©2021</p>
+            <address class="mail">Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano.
+                P.IVA 00112233. <a class="mail-text" href="mailto:info@epicode.school">info@epicode.school</a>
+            </address>
+        </div>
+    </footer>
+</body>
+
+</html>
