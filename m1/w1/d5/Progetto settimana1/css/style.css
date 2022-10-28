@@ -3,6 +3,8 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    /*word-break: break-word;
+    non necessario, l'ho messo solo in quanto se si voglia stringere la larghezza eccessivamente spacca le parole*/
 }
 
 .logo-container {
@@ -75,7 +77,7 @@
 
  .notebook-circle {
     border-radius: 50%;
-    max-width: 100%;
+    width: 100%;
     padding: 0 13%;
  }
 
@@ -125,7 +127,7 @@
 }
 
 .notebook-img {
-    max-width: 100%;
+   width: 100%;
 }
 
 .tuo-pc {
