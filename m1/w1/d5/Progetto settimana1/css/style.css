@@ -1,0 +1,188 @@
+/* Your styles here */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo-container {
+    background-color: black;
+    text-align: center;
+}
+ #logo {
+    max-width: 55%;
+    padding: 5vh;
+ }
+
+ .nav-container {
+    text-align: center;
+    background-image: url(../images/banner.jpg);
+    padding-bottom: 12%;
+    margin-bottom: 70px;
+    background-size: 153%;
+    background-position: -120px 10px;
+ }
+
+ #title, .testimonial-epicode{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #25a2c3;
+    font-style: bold;
+    padding-top: 9vh;
+    margin-bottom: 3%;
+ }
+
+ .title {
+    padding: 0 25px;
+ }
+
+ .sub-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    color: #393d41;
+    line-height: 1.5;
+    margin: 5% 11% 9% 
+ }
+
+ .cta-button {
+    max-width: 21vh;
+    background-color: #D94B2B;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+ }
+
+ .cta {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 2.8;
+    text-decoration: none;
+ }
+
+ .main-container {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+ }
+
+ .main-first-part-claim {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 7%;
+    color: #25a2c3;
+ }
+
+ .notebook-circle {
+    border-radius: 50%;
+    max-width: 100%;
+    padding: 0 13%;
+ }
+
+.testimonial-container {
+    margin-top: 18%;
+    padding-bottom: 11%;
+    background-color: #EB2116;
+    color: white;
+}
+
+.testimonial-epicode {
+    color: white;
+    margin: 0
+}
+
+.testimonianza {
+    margin: 10% 5% 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.ceo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    margin: 10% 5% 0;
+}
+
+.ceo-epicode {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin-top: 2.5%;
+}
+
+.main-fifth-part {
+    margin: auto;
+    margin-top: 11%;
+    max-width: 90%;
+    padding-bottom: 10%;
+    border: 1.5px solid #eaecf0;
+    border-radius: 5px;
+}
+
+.notebook-pic {
+    margin-top: 14%;
+}
+
+.notebook-img {
+    max-width: 100%;
+}
+
+.tuo-pc {
+    margin-bottom: 5%;
+    font-size: 1.2rem;
+}
+
+.tuo-pc-sub {
+    margin: 4% 4% 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.contattaci-container {
+    margin-top: 18%;
+    padding:11% 11% 0;
+    background-color: #25a2c3;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
+
+.fas {
+    margin-right: 5px;
+}
+
+.info {
+    display: block;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.call-me {
+    margin-top: 40px;
+    line-height: 1.6;
+}
+
+.via {
+    border: 1px solid;
+    padding-top: 10px;
+   margin: 0;
+   padding: 0;
+}
+
+.copyright {
+    display: inline;
+    font-size: 1.1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    padding-top: 35px;
+    line-height: 10;
+}
+
+.pixabay {
+    text-decoration: underline;
+}
